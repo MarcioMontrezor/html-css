@@ -19,8 +19,8 @@ header h1{
     text-align: center;
 }
 
-header > span{
-    width: 100vw;
+i#burguer{
+    display: block;
     background-color: rgb(161, 59, 59);
     color: white;
     text-align: center;
@@ -28,12 +28,12 @@ header > span{
     cursor: pointer;
 }
 
-header > span:hover{
+i#burguer:hover{
     background-color: black;
 }
 
 menu{
-    display: none;
+    display: block;
 }
 
 menu ul{
