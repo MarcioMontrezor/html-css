@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Menu responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+            <li><a href="#">Opção1</a></li>
+            <li><a href="#">Opção2</a></li>
+            <li><a href="#">Opção3</a></li>
+            <li><a href="#">Opção4</a></li>
+            <li><a href="#">Opção5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Medias Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus optio in eos, aperiam sint cum voluptatem, tempore iusto tenetur, iure temporibus sed illum quo quia facilis officiis modi unde placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque facilis ex optio eius nulla quis perspiciatis accusantium quasi, sapiente quam, dignissimos est autem dolore soluta qui, tenetur at. Saepe, blanditiis.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos quam similique ab provident earum vel necessitatibus repudiandae dolorem ducimus officia sequi nemo alias praesentium placeat quasi, a, architecto atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit vel dolor necessitatibus autem? Voluptatem vitae pariatur vel rerum officia quo voluptates veniam sint, doloribus, facere facilis porro tenetur nihil.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique dolorum laudantium maiores, veritatis aliquam libero, ipsa deserunt dicta omnis totam illo hic ut consequuntur, eum commodi magni incidunt. Ea, voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rem enim, ex suscipit ratione ducimus ut inventore sunt error voluptatibus, reiciendis quisquam earum labore facilis delectus facere. Laudantium, mollitia. Laborum.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }   
+            else {
+                itens.style.display = 'block'
+            }
+        }           
+    </script>
+</body>
+</html>
